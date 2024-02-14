@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: cupy/cupy-rocm:latest
+    runs-on: actions-runner-001
 
     steps:
     - uses: actions/checkout@v3
