@@ -14,7 +14,7 @@ jobs:
       - name: Trigger Workflow in Another Repository
         run: |
           # Set the required variables
-          repo_owner="alexaschroeter" 
+          repo_owner="alexschroeter" 
           repo_name="mvs-prototype-privat"  
           event_type="trigger-workflow" 
           service="${{ github.event.inputs.target_service }}"
